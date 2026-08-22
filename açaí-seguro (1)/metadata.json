@@ -1,0 +1,6 @@
+{
+  "name": "Açaí Seguro",
+  "description": "A melhor landing page de conversão e portal interativo para o ecossistema definitivo do açaí, conectando turistas, moradores, produtores, batedores e ações sustentáveis.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
