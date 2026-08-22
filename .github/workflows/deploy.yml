@@ -1,4 +1,4 @@
-name: Deploy Aa-Seguro
+name: Deploy Açaí Seguro
 
 on:
   push:
@@ -29,17 +29,11 @@ jobs:
           node-version: 22
 
       - name: Instalar dependências
-working-directory: ./Aa-seguro
-
-
-
+        working-directory: ./Aa-seguro
         run: npm install
 
       - name: Compilar projeto
-   working-directory: ./Aa-seguro
-
-
-
+        working-directory: ./Aa-seguro
         run: npm run build -- --base=/Aa-Seguro/
 
       - name: Configurar Pages
